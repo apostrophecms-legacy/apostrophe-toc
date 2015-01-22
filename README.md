@@ -20,7 +20,7 @@ Now that we've got the widget configured, we can simply add it to our template a
 ```
 ## TO-DO
 - [x] Build it
-- [ ] Publish to NPM
+- [x] Publish to NPM
 - [ ] Build some nice basic styles
 
 <a href="http://punkave.com/"><img src="https://raw.github.com/punkave/jquery-bottomless/master/logos/logo-box-builtby.png" /></a>
