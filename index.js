@@ -1,6 +1,5 @@
 var extend = require('extend');
 var _ = require('lodash');
-var request = require('request');
 var chalk = require('chalk');
 
 module.exports = function(options, callback) {
@@ -27,7 +26,7 @@ function Construct(options, callback) {
   // Include our editor template in the markup when aposTemplates is called
 
   // I'm not sure there's an editing interface needed for it at this point.
-  // self.pushAsset('template', 'tocEditor', { when: 'user' });
+  self.pushAsset('template', 'tocEditor', { when: 'user' });
   self.pushAsset('template', 'toc', { when: 'always' });
 
   // Make sure that aposScripts and aposStylesheets summon our assets
@@ -35,6 +34,7 @@ function Construct(options, callback) {
   // We need the editor for RSS feeds. (TODO: consider separate script lists for
   // resources needed also by non-editing users.)
   self.pushAsset('script', 'editor', { when: 'user' });
+  self.pushAsset('script', 'toc.min', { when: 'always' });
   self.pushAsset('script', 'content', { when: 'always' });
   self.pushAsset('stylesheet', 'content', { when: 'always' });
 

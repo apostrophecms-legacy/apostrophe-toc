@@ -1,0 +1,28 @@
+{% extends "baseWidgetEditor.html" %}
+{% include "formMacros.html" %}
+
+{% block modalClass %}
+  {{ super() }} apos-toc-editor
+{% endblock%}
+
+{% block modalLabel %}
+  {{ __('Table of Contents')}}
+{% endblock %}
+
+{% block modalInstructions %}
+  <p>{{ __("Not sure what you're supposed to do here.")}}</p>
+{% endblock %}
+
+{% block formBody %}
+
+  <fieldset class="apos-fieldset apos-fieldset-select apos-fieldset-selectize apos-fieldset-apos-toc-refresh" data-name="refresh">
+    <label>Update Table of Contents after Saving?</label>
+    <div class="apos-select-wrapper apos-inline-input">
+      <select class="apos-by" name="refresh-select" data-selectize>
+        <option value="1">{{ indexLabel }} {{ __('Yes') }}</option>
+        <option value="0">{{pieceLabel}} {{ __('No') }}</option>
+      </select>
+    </div>
+  </fieldset>
+
+{% endblock %}

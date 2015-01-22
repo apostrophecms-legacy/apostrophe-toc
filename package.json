@@ -29,5 +29,10 @@
   "bugs": {
     "url": "https://github.com/punkave/apostrophe-toc/issues"
   },
-  "homepage": "https://github.com/punkave/apostrophe-toc"
+  "homepage": "https://github.com/punkave/apostrophe-toc",
+  "readme": "# apostrophe-toc\n[![NPM](https://nodei.co/npm/apostrophe-toc.png?downloads=true&stars=true)](https://nodei.co/npm/apostrophe-toc/)\n\n<a href=\"http://apostrophenow.org/\"><img src=\"https://raw.github.com/punkave/jquery-bottomless/master/logos/logo-box-madefor.png\" align=\"right\" /></a>\napostrophe-toc is a widget for the [Apostrophe](http://github.com/punkave/apostrophe) content management system. Apostrophe TOC lets you display a table of contents generated from the markup of your text areas.\n\n## TO-DO\n- [ ] Build it\n- [ ] Publish to NPM\n- [ ] Build some nice basic styles\n\n<a href=\"http://punkave.com/\"><img src=\"https://raw.github.com/punkave/jquery-bottomless/master/logos/logo-box-builtby.png\" /></a>\n",
+  "readmeFilename": "README.md",
+  "_id": "apostrophe-toc@0.5.0",
+  "_shasum": "b241eff59ae80d4a42e818aa049ee0ffb7ccb982",
+  "_from": "/Users/jsumnersmith/src/apostrophe-toc/"
 }
